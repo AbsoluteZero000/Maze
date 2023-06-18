@@ -3,13 +3,15 @@
 
 #ifndef MAZE_H
 #define MAZE_H
-
+struct Player{
+    int x;
+    int y;
+};
 class Maze{
     private:
         char ** maze;
         unsigned int size;
-        std::mt19937 random;
-
+        Player player;
         void generateMaze();
 
         void dfs(int x, int y);
