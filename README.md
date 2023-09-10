@@ -1,2 +1,2 @@
 # Simple Maze Game in C++
-   # GUI WIP
+   ## GUI WIP
